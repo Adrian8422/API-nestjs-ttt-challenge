@@ -1,0 +1,16 @@
+{
+    // Otras configuraciones que ya tengas
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.associations": {
+        "nestjs": "typescript", // Asocia los archivos de NestJS
+        "controller": "function", // Icono para controladores
+        "service": "settings", // Icono para servicios
+        "module": "folder", // Icono para módulos
+        "guard": "key", // Icono para guards
+        "resolver": "question", // Icono para resolvers
+        "dto": "class", // Icono para DTOs
+        "middleware": "cog", // Icono para middlewares
+        "entity": "data", // Icono para entidades
+    }
+}
