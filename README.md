@@ -24,16 +24,9 @@
 
 ## Description
 
-Firebase Authentication:
-
-Firebase Authentication is implemented in the project, but the FirebaseAuthGuard is currently commented out. This is because I don't have a token to authenticate via Firebase. Additionally, there is no frontend or endpoint for logging in at this moment.
-
-
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project setup
-
-Run the following command to install the project dependencies:
 
 ```bash
 $ npm install
@@ -41,17 +34,7 @@ $ npm install
 
 ## Compile and run the project
 
-
-
 ```bash
-# To start the required Docker containers, run
-$ docker-compose up
-
-# After setting up the Docker containers, create the initial migration using Prisma by running
-$ npx prisma migrate dev --name init
-
-# Once the migration is complete, start the project by running:
-
 # development
 $ npm run start
 
@@ -71,6 +54,9 @@ $ npm run test
 # e2e tests
 $ npm run test:e2e
 
+# test coverage
+$ npm run test:cov
+```
 
 ## Resources
 
